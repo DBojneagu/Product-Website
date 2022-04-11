@@ -486,7 +486,22 @@ span:nth-child(51) {
 		margin-left: 200px;
 	}
 
+
+	nav ul li ul {
+		top: 70px;
+		opacity: 1;
+		visibility: visible;
+		transition: 0.5s linear;
+	}
 	
+	nav ul ul {
+		position: absolute;
+		opacity: 1;
+	}
+	
+	nav ul ul li {
+		border:none;
+	}
 	
 	
 
@@ -533,7 +548,7 @@ span:nth-child(51) {
 		display: none;
 	
 }
-@media (max-width: 500px){
+@media (max-width: 500px) {
 	nav ul li {
 		margin-left: 70px;
 	}
