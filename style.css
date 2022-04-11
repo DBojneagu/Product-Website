@@ -479,11 +479,18 @@ span:nth-child(51) {
 @media (max-width: 700px) {
 	nav {
 		display: flex;
-		flex-direction: row;
+		align-items: center;
+        justify-content: center;
 	}
 	nav ul li {
 		margin-left: 200px;
 	}
+
+	
+	
+	
+
+
 	.section-a .container {
 		grid-template-columns: 1fr;
 		text-align: center;
@@ -524,16 +531,5 @@ span:nth-child(51) {
 	}
 	.gallery a:last-child {
 		display: none;
-	}
-	.section-footer {
-		padding: 32px 0;
-	}
-	.section-footer .container {
-		grid-template-columns: 1fr;
-		text-align: center;
-	}
-	.section-footer div:nth-child(2),
-	.section-footer div:nth-child(3) {
-		display: none;
-	}
+	
 }
