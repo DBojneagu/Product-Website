@@ -533,3 +533,12 @@ span:nth-child(51) {
 		display: none;
 	
 }
+@media (max-width: 500px){
+	nav ul li {
+		margin-left: 70px;
+	}
+
+	nav ul ul  {
+		margin-left: 70px;
+	}
+}
