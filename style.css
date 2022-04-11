@@ -503,9 +503,6 @@ span:nth-child(51) {
 		border:none;
 	}
 	
-	
-
-
 	.section-a .container {
 		grid-template-columns: 1fr;
 		text-align: center;
@@ -546,8 +543,9 @@ span:nth-child(51) {
 	}
 	.gallery a:last-child {
 		display: none;
-	
+	}
 }
+    
 @media (max-width: 500px) {
 	nav ul li {
 		margin-left: 70px;
